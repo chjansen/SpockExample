@@ -1,7 +1,7 @@
-package com.asml.winetstore.repository.customer;
+package com.ilionx.winestore.repository.customer;
 
-import com.asml.winetstore.model.Customer;
-import com.asml.winetstore.repository.CustomerRepository;
+import com.ilionx.winestore.model.Customer;
+import com.ilionx.winestore.repository.CustomerRepository;
 
 public class CustomerRepositoryImpl implements CustomerRepository {
 

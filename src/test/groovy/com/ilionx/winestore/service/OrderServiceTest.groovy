@@ -1,9 +1,13 @@
-package com.asml.winetstore.service
+package com.ilionx.winestore.service
 
 import com.asml.winetstore.model.*
-import com.asml.winetstore.repository.CustomerRepository
-import com.asml.winetstore.repository.WineRepository
-import com.asml.winetstore.repository.customer.CustomerRepositoryImpl
+import com.ilionx.winestore.model.Order
+import com.ilionx.winestore.model.OrderLine
+import com.ilionx.winestore.repository.customer.CustomerRepositoryImpl
+import com.ilionx.winestore.model.Address
+import com.ilionx.winestore.model.Customer
+import com.ilionx.winestore.model.Wine
+import com.ilionx.winestore.repository.WineRepository
 import spock.lang.Specification
 import spock.lang.Unroll
 

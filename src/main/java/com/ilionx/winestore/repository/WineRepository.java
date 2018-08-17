@@ -1,6 +1,6 @@
-package com.asml.winetstore.repository;
+package com.ilionx.winestore.repository;
 
-import com.asml.winetstore.model.Wine;
+import com.ilionx.winestore.model.Wine;
 
 public interface WineRepository {
 

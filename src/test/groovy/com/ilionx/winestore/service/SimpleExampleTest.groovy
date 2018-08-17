@@ -1,4 +1,4 @@
-package com.asml.winetstore.service
+package com.ilionx.winestore.service
 
 import spock.lang.Specification
 import spock.lang.Unroll

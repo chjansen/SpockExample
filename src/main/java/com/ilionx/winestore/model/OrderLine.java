@@ -1,4 +1,4 @@
-package com.asml.winetstore.model;
+package com.ilionx.winestore.model;
 
 import lombok.Getter;
 import lombok.Setter;
