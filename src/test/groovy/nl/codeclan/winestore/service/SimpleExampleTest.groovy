@@ -1,4 +1,4 @@
-package com.ilionx.winestore.service
+package nl.codeclan.winestore.service
 
 import spock.lang.Specification
 import spock.lang.Unroll
@@ -12,17 +12,17 @@ class SimpleExampleTest extends Specification{
         when:
         list.add(2)
         then:
-        2 == list.get(0)
+        list.get(0) == 2
     }
 
     @Unroll
-    def "numbers to the power of two"() {
+    def "numbers to the #a power of #b"() {
         expect:
         Math.pow(a, b) == c
 
         where:
         a | b | c
-        1 | 2 | 1
+        1 | 2 | 0
         2 | 2 | 4
         3 | 2 | 9
     }

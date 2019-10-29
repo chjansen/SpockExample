@@ -1,11 +1,11 @@
-package com.ilionx.winestore.service;
+package nl.codeclan.winestore.service;
 
-import com.ilionx.winestore.model.Address;
-import com.ilionx.winestore.model.Order;
-import com.ilionx.winestore.model.OrderLine;
-import com.ilionx.winestore.model.Wine;
-import com.ilionx.winestore.repository.CustomerRepository;
-import com.ilionx.winestore.repository.WineRepository;
+import nl.codeclan.winestore.model.Address;
+import nl.codeclan.winestore.model.Order;
+import nl.codeclan.winestore.model.OrderLine;
+import nl.codeclan.winestore.model.Wine;
+import nl.codeclan.winestore.repository.CustomerRepository;
+import nl.codeclan.winestore.repository.WineRepository;
 
 import java.util.Random;
 

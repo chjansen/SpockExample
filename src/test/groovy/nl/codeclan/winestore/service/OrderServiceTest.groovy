@@ -1,13 +1,8 @@
-package com.ilionx.winestore.service
+package nl.codeclan.winestore.service
 
-import com.asml.winetstore.model.*
-import com.ilionx.winestore.model.Order
-import com.ilionx.winestore.model.OrderLine
-import com.ilionx.winestore.repository.customer.CustomerRepositoryImpl
-import com.ilionx.winestore.model.Address
-import com.ilionx.winestore.model.Customer
-import com.ilionx.winestore.model.Wine
-import com.ilionx.winestore.repository.WineRepository
+import nl.codeclan.winestore.model.*
+import nl.codeclan.winestore.repository.WineRepository
+import nl.codeclan.winestore.repository.customer.CustomerRepositoryImpl
 import spock.lang.Specification
 import spock.lang.Unroll
 
@@ -16,7 +11,7 @@ import java.math.RoundingMode
 class OrderServiceTest extends Specification {
 
 
-    def "Test is the order is created correctly"() {
+    def "Test if the order is created correctly"() {
         given: "a customer repo is setup and a customer service is available"
         def customerRepo = Mock(CustomerRepositoryImpl)
         customerRepo.findCustomerById(_) >> new Customer()
@@ -67,7 +62,7 @@ class OrderServiceTest extends Specification {
         then: "check if the numberOfProduct , orderPrice and orderVat are calculated correctly"
         result.numberOfProduct == numberOfProduct
         result.orderPrice == orderPrice
-        def roundedOrderVat =new BigDecimal(result.vat).setScale(2, RoundingMode.HALF_UP).doubleValue()
+        def roundedOrderVat = new BigDecimal(result.vat).setScale(2, RoundingMode.HALF_UP).doubleValue()
         roundedOrderVat == orderVat
         result.customer.shippingAddress.zipCode == zipCode
         result.shippingAddress.number == number

@@ -1,4 +1,4 @@
-package com.ilionx.winestore.model;
+package nl.codeclan.winestore.model;
 
 import lombok.Getter;
 import lombok.Setter;

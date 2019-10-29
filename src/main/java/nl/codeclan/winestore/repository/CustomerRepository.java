@@ -1,6 +1,6 @@
-package com.ilionx.winestore.repository;
+package nl.codeclan.winestore.repository;
 
-import com.ilionx.winestore.model.Customer;
+import nl.codeclan.winestore.model.Customer;
 
 public interface CustomerRepository {
 

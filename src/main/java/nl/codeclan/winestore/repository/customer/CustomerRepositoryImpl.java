@@ -1,7 +1,7 @@
-package com.ilionx.winestore.repository.customer;
+package nl.codeclan.winestore.repository.customer;
 
-import com.ilionx.winestore.model.Customer;
-import com.ilionx.winestore.repository.CustomerRepository;
+import nl.codeclan.winestore.model.Customer;
+import nl.codeclan.winestore.repository.CustomerRepository;
 
 public class CustomerRepositoryImpl implements CustomerRepository {
 
