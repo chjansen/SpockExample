@@ -1,0 +1,9 @@
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/model/Address.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/model/Customer.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/model/Order.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/model/OrderLine.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/model/Wine.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/repository/CustomerRepository.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/repository/WineRepository.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/repository/customer/CustomerRepositoryImpl.java
+/Users/cjansen/Personal/projects/src/main/java/nl/codeclan/winestore/service/OrderService.java
